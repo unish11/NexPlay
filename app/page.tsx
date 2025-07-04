@@ -348,8 +348,8 @@ export default function Component() {
               <Image
                   src="/images/nexplay-logo.png"
                   alt="NEXPLAY Logo"
-                  width={60}
-                  height={60}
+                  width={90}
+                  height={90}
                   className="object-contain"
                 />
                 </div>
