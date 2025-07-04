@@ -576,7 +576,7 @@ export default function Component() {
             </a>
 
             <a
-              href="https://youtube.com/nexplayorg"
+              href="https://www.youtube.com/@Nexplayorg"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-red-500/30 transition-all duration-300"
