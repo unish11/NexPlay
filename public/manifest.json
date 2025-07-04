@@ -1,0 +1,27 @@
+{
+  "name": "NEXPLAY - The Future of Esports",
+  "short_name": "NEXPLAY",
+  "description": "Your ultimate hub for competitive gaming and esports action",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/nexplay-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/nexplay-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["games", "entertainment", "sports"],
+  "lang": "en",
+  "dir": "ltr"
+}
