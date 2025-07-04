@@ -474,7 +474,7 @@ export default function Component() {
                 <h4 className="text-xl font-bold text-white mb-2">Lilakant sah</h4>
                 <p className="text-pink-400 font-medium mb-3">costumers support head</p>
                 <p className="text-slate-300 text-sm mb-4">
-                  spelicized on handelling user
+                  Seamlessly managing user engagement with care, clarity, and next-level support — because every player matters.
                 </p>
                 <div className="flex justify-center space-x-3">
                   <a
