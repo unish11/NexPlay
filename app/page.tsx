@@ -350,7 +350,7 @@ export default function Component() {
                 <h4 className="text-xl font-bold text-white mb-2">unish ghimire</h4>
                 <p className="text-pink-400 font-medium mb-3">ceo</p>
                 <p className="text-slate-300 text-sm mb-4">
-                 ceo with 3 yrs of experience on the feild of tourment organization 
+                Driven by a visionary CEO and a passionate team, NEXPLAY is reshaping the esports world with cutting-edge innovation, flawless execution, and unwavering excellence
                 </p>
                 <div className="flex justify-center space-x-3">
                   <a
