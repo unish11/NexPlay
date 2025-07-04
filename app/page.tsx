@@ -345,13 +345,13 @@ export default function Component() {
             <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl group">
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold">
-             <Image
-  src="/images/nexplay-logo.png"
-  alt="NEXPLAY Logo"
-  width={100}
-  height={100}
-  className="object-contain rounded-full"
-/>
+                 <Image
+                 src="/images/nexplay-logo.png"
+                  alt="NEXPLAY Logo"
+                  width={100}
+                  height={100}
+                   className="object-contain rounded-full"
+                    />
 
                 </div>
                 <h4 className="text-xl font-bold text-white mb-2">unish ghimire</h4>
