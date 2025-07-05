@@ -161,7 +161,7 @@ export default function Component() {
                 </CardContent>
               </Card>
             </div>
-
+<meta name="google-adsense-account" content="ca-pub-8756353791950574">    
             {/* Center Phone Mockup */}
             <div className="flex justify-center">
               <div className="relative">
