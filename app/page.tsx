@@ -364,8 +364,13 @@ export default function Component() {
                     href="#"
                     className="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center hover:bg-purple-600/20 transition-colors"
                   >
-                    <Gmail className="w-4 h-4 text-slate-400 hover:text-purple-400" />
-                  </a>
+                   <a
+              href="mailto:nexplayorg@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-red-500/30 transition-all duration-300"
+            >
+           
                 </div>
               </CardContent>
             </Card>
