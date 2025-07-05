@@ -386,13 +386,13 @@ export default function Component() {
                     href="#"
                     className="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center hover:bg-purple-600/20 transition-colors"
                   >
-                    <Github className="w-4 h-4 text-slate-400 hover:text-purple-400" />
+                    <Gmail className="w-4 h-4 text-slate-400 hover:text-purple-400" />
                   </a>
                   <a
                     href="#"
                     className="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center hover:bg-purple-600/20 transition-colors"
                   >
-                    <Linkedin className="w-4 h-4 text-slate-400 hover:text-purple-400" />
+                    <Facebook className="w-4 h-4 text-slate-400 hover:text-purple-400" />
                   </a>
                   <a
                     href="#"
