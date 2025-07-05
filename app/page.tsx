@@ -95,7 +95,7 @@ export default function Component() {
                 </span>
               </span>
             </h1>
-
+<meta name="google-adsense-account" content="ca-pub-8756353791950574">
             <p className="text-xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
               Experience the future of esports world. Your ultimate hub for competitive gaming and esports action. Join
               tournaments and connect with top players — all in one place.
