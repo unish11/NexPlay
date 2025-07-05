@@ -323,5 +323,9 @@ export default function Component() {
                 </CardDescription>
               </CardContent>
             </Card>
-          </div>
         </div>
+        </div>
+      </section>
+    </div>
+  )
+}
