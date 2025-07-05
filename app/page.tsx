@@ -15,6 +15,9 @@ import {
   Play,
   Star,
   Users,
+  Github,
+  Linkedin,
+  Twitter,
 } from "lucide-react"
 import Image from "next/image"
 
@@ -39,11 +42,14 @@ export default function Component() {
             </h1>
           </div>
           <nav className="hidden md:flex space-x-6">
-            <a href="#ecosystem" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
-              Ecosystem
+            <a href="#home" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
+              Home
             </a>
             <a href="#features" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
               Features
+            </a>
+            <a href="#team" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
+              Team
             </a>
             <a href="#contact" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
               Contact
@@ -52,8 +58,8 @@ export default function Component() {
         </div>
       </header>
 
-      {/* Combined Hero & Ecosystem Section */}
-      <section id="ecosystem" className="py-20 px-4 relative overflow-hidden">
+      {/* Combined Hero & Home Section */}
+      <section id="home" className="py-20 px-4 relative overflow-hidden">
         <div className="container mx-auto max-w-7xl relative">
           {/* Background Effects */}
           <div className="absolute inset-0 opacity-20">
@@ -96,7 +102,6 @@ export default function Component() {
             </p>
 
             {/* Download Button */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
               <a
                 href="https://www.4sync.com/web/directDownload/f2P3mTnv/iwfV27T4.3c4d624867ff7a351474d3b25c27134b"
                 download="nexplay-setup.exe"
@@ -153,8 +158,7 @@ export default function Component() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
-
+            </div>   
             {/* Center Phone Mockup */}
             <div className="flex justify-center">
               <div className="relative">
@@ -319,121 +323,9 @@ export default function Component() {
                 </CardDescription>
               </CardContent>
             </Card>
-          </div>
+        </div>
         </div>
       </section>
-
-      {/* Contact Us Section */}
-      <section id="contact" className="py-16 px-4 bg-slate-900/50 backdrop-blur-sm">
-        <div className="container mx-auto max-w-4xl">
-          <h3 className="text-3xl font-bold text-center text-white mb-4">Contact Us</h3>
-          <p className="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
-            Have questions or need assistance? Reach out to us through any of these platforms.
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 text-center">
-            <a
-              href="https://facebook.com/nexplayorg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-blue-500/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-3 border border-blue-500/20">
-                <Facebook className="w-6 h-6 text-blue-400" />
-              </div>
-              <span className="text-slate-300 font-medium">Facebook</span>
-            </a>
-
-            <a
-              href="mailto:nexplayorg@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-red-500/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-red-500/20 rounded-xl flex items-center justify-center mb-3 border border-red-500/20">
-                <Mail className="w-6 h-6 text-red-400" />
-              </div>
-              <span className="text-slate-300 font-medium">Gmail</span>
-            </a>
-
-            <a
-              href="https://api.whatsapp.com/send/?phone=9779767783336&text&type=phone_number&app_absent=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-green-500/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center mb-3 border border-green-500/20">
-                <MessageCircle className="w-6 h-6 text-green-400" />
-              </div>
-              <span className="text-slate-300 font-medium">WhatsApp</span>
-            </a>
-
-            <a
-              href="https://t.me/+A1h9c1DCUOwxMjE1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-blue-400/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-blue-400/20 rounded-xl flex items-center justify-center mb-3 border border-blue-400/20">
-                <Send className="w-6 h-6 text-blue-400" />
-              </div>
-              <span className="text-slate-300 font-medium">Telegram</span>
-            </a>
-
-            <a
-              href="https://discord.gg/D3M3AqAe5U"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-indigo-500/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-indigo-500/20 rounded-xl flex items-center justify-center mb-3 border border-indigo-500/20">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" className="w-6 h-6" fill="#818CF8">
-                  <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z" />
-                </svg>
-              </div>
-              <span className="text-slate-300 font-medium">Discord</span>
-            </a>
-
-            <a
-              href="https://youtube.com/nexplayorg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center p-4 rounded-2xl bg-slate-800/40 hover:bg-slate-800/60 border border-purple-700/30 hover:border-red-500/30 transition-all duration-300"
-            >
-              <div className="w-12 h-12 bg-red-500/20 rounded-xl flex items-center justify-center mb-3 border border-red-500/20">
-                <Youtube className="w-6 h-6 text-red-400" />
-              </div>
-              <span className="text-slate-300 font-medium">YouTube</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 border-t border-purple-800/30 text-white py-8 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-col items-center text-center">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 relative">
-                <Image
-                  src="/images/nexplay-logo.png"
-                  alt="NEXPLAY Logo"
-                  width={40}
-                  height={40}
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-                NEXPLAY
-              </span>
-            </div>
-            <p className="text-slate-400 text-sm mb-6">The future of digital Esports, available today.</p>
-            <div className="border-t border-purple-800/30 pt-6 w-full text-center text-sm text-slate-500">
-              <p>&copy; 2024 NEXPLAY. All rights reserved.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
