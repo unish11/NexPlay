@@ -102,8 +102,6 @@ export default function Component() {
             </p>
 
             {/* Download Button */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-              <meta name="google-adsense-account" content="ca-pub-8756353791950574">
               <a
                 href="https://www.4sync.com/web/directDownload/f2P3mTnv/iwfV27T4.3c4d624867ff7a351474d3b25c27134b"
                 download="nexplay-setup.exe"
@@ -160,8 +158,7 @@ export default function Component() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
-<meta name="google-adsense-account" content="ca-pub-8756353791950574">    
+            </div>   
             {/* Center Phone Mockup */}
             <div className="flex justify-center">
               <div className="relative">
@@ -329,7 +326,7 @@ export default function Component() {
           </div>
         </div>
       </section>
-
+<meta name="google-adsense-account" content="ca-pub-8756353791950574">
       {/* Team Portfolio Section */}
       <section id="team" className="py-16 px-4 bg-slate-900/50 backdrop-blur-sm">
         <div className="container mx-auto max-w-6xl">
