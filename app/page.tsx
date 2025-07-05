@@ -103,6 +103,7 @@ export default function Component() {
 
             {/* Download Button */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+              <meta name="google-adsense-account" content="ca-pub-8756353791950574">
               <a
                 href="https://www.4sync.com/web/directDownload/f2P3mTnv/iwfV27T4.3c4d624867ff7a351474d3b25c27134b"
                 download="nexplay-setup.exe"
