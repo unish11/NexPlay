@@ -74,7 +74,7 @@ export default function Component() {
             <div className="flex justify-center mb-8">
               <div className="w-24 h-24 relative">
                 <Image
-                  src="/images/nexplay-logo.png"
+                  <Image src="/images/nexplay-logo.png" ... /> 
                   alt="NEXPLAY Logo"
                   width={96}
                   height={96}
