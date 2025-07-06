@@ -89,8 +89,8 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#3B82F6" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-     crossorigin="anonymous"></script>
-<!-- NEXPLAY ADD -->
+     crossorigin="anonymous">  
+     </script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8756353791950574"
