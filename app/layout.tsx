@@ -125,7 +125,7 @@ export default function RootLayout({
      data-ad-client="ca-pub-8756353791950574"
      data-ad-slot="2698495077"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({})
 </script>
 </body>
     </html>
