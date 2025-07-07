@@ -106,7 +106,7 @@ export default function RootLayout({
 </amp-auto-ads>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
      crossorigin="anonymous"></script>
-<!-- ads nexplay -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8756353791950574"
@@ -125,7 +125,7 @@ export default function RootLayout({
      data-ad-client="ca-pub-8756353791950574"
      data-ad-slot="2698495077"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({})
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </body>
     </html>
