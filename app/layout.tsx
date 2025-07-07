@@ -95,9 +95,7 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
      crossorigin="anonymous"></script>
-     <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+     
       </head>
       <body className={inter.className}>{children}
       <amp-auto-ads type="adsense"
