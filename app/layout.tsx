@@ -77,11 +77,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-          crossOrigin="anonymous"
-        ></script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/images/nexplay-logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="/images/nexplay-logo.png" />
@@ -93,10 +88,25 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#3B82F6" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-     crossorigin="anonymous"></script>
+        
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
+     crossorigin="anonymous"></script>
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
+     crossorigin="anonymous"></script>
+<!-- addd 12211 -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8756353791950574"
+     data-ad-slot="2076179550"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></body>
     </html>
   )
 }
