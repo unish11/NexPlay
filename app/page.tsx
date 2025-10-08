@@ -15,6 +15,9 @@ import {
   Play,
   Star,
   Users,
+  Github,
+  Linkedin,
+  Twitter,
 } from "lucide-react"
 import Image from "next/image"
 
@@ -39,11 +42,14 @@ export default function Component() {
             </h1>
           </div>
           <nav className="hidden md:flex space-x-6">
-            <a href="#ecosystem" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
-              Ecosystem
+            <a href="#home" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
+              Home
             </a>
             <a href="#features" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
               Features
+            </a>
+            <a href="#team" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
+              Team
             </a>
             <a href="#contact" className="text-slate-300 hover:text-pink-400 transition-colors font-medium">
               Contact
@@ -52,8 +58,8 @@ export default function Component() {
         </div>
       </header>
 
-      {/* Combined Hero & Ecosystem Section */}
-      <section id="ecosystem" className="py-20 px-4 relative overflow-hidden">
+      {/* Combined Hero & Home Section */}
+      <section id="home" className="py-20 px-4 relative overflow-hidden">
         <div className="container mx-auto max-w-7xl relative">
           {/* Background Effects */}
           <div className="absolute inset-0 opacity-20">
@@ -323,8 +329,224 @@ export default function Component() {
         </div>
       </section>
 
+      {/* Team Portfolio Section */}
+      <section id="team" className="py-16 px-4 bg-slate-900/50 backdrop-blur-sm">
+        <div className="container mx-auto max-w-6xl">
+          <h3 className="text-3xl font-bold text-center text-white mb-4">Meet Our Team</h3>
+          <p className="text-center text-slate-400 mb-12 max-w-2xl mx-auto">
+            The passionate professionals behind NEXPLAY, dedicated to creating the ultimate esports platform
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Team Member 1 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">AK</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">Alex Kumar</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">Lead Developer</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Full-stack expert with 8+ years building scalable gaming platforms and real-time systems.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Team Member 2 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">SM</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">Sarah Mitchell</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">UI/UX Designer</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Award-winning designer creating intuitive experiences that gamers love, with 6+ years in esports UX.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Team Member 3 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-violet-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">MR</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">Mike Rodriguez</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">Backend Engineer</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Infrastructure wizard ensuring seamless performance for millions of concurrent users worldwide.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Team Member 4 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">JL</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">Jessica Lee</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">Product Manager</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Strategic thinker transforming user feedback into features that drive engagement and growth.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Team Member 5 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">DW</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">David Wang</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">Mobile Developer</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Mobile-first specialist crafting smooth, responsive experiences for iOS and Android platforms.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Team Member 6 */}
+            <Card className="bg-slate-800/60 border-purple-700/30 backdrop-blur-xl hover:bg-slate-800/80 transition-all duration-300 shadow-xl">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 bg-gradient-to-br from-violet-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-3xl">ET</span>
+                </div>
+                <h4 className="text-white font-bold text-xl mb-1">Emma Thompson</h4>
+                <p className="text-pink-400 text-sm font-medium mb-3">Community Manager</p>
+                <p className="text-slate-300 text-sm mb-4">
+                  Building and nurturing our vibrant community with 5+ years of experience in esports engagement.
+                </p>
+                <div className="flex justify-center space-x-3">
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Github className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Linkedin className="w-4 h-4 text-purple-400" />
+                  </a>
+                  <a
+                    href="#"
+                    className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center hover:bg-purple-500/30 transition-colors"
+                  >
+                    <Twitter className="w-4 h-4 text-purple-400" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Us Section */}
-      <section id="contact" className="py-16 px-4 bg-slate-900/50 backdrop-blur-sm">
+      <section id="contact" className="py-16 px-4 bg-purple-900/30 backdrop-blur-sm">
         <div className="container mx-auto max-w-4xl">
           <h3 className="text-3xl font-bold text-center text-white mb-4">Contact Us</h3>
           <p className="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
@@ -429,7 +651,7 @@ export default function Component() {
             </div>
             <p className="text-slate-400 text-sm mb-6">The future of digital Esports, available today.</p>
             <div className="border-t border-purple-800/30 pt-6 w-full text-center text-sm text-slate-500">
-              <p>&copy; 2024 NEXPLAY. All rights reserved.</p>
+              <p>&copy; 2025 NEXPLAY. All rights reserved.</p>
             </div>
           </div>
         </div>

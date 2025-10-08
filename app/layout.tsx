@@ -77,11 +77,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-          crossOrigin="anonymous"
-        ></script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/images/nexplay-logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="/images/nexplay-logo.png" />
@@ -93,41 +88,9 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#3B82F6" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-     crossorigin="anonymous"></script>
-     <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
-     
+        
       </head>
-      <body className={inter.className}>{children}
-      <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-8756353791950574">
-</amp-auto-ads>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-     crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8756353791950574"
-     data-ad-slot="2833360474"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8756353791950574"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-8756353791950574"
-     data-ad-slot="2698495077"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
